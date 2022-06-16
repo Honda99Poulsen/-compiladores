@@ -6,10 +6,56 @@ h1 span {
     color: #2988E0;
 }
 
-#navegacion{
+.nombre-sitio {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+ 
+  .nav-principal{
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.nombre-sitio span{
+    color: #2988E0;
+}
+
+.sobre-nosotros{
     background-color: #2988E0;
 }
 
-.navegacion-categorias{
-    background-color: brown;
+.contenedor {
+max-width: 1200px;
+margin-top: 0;
+margin-right: auto;
+margin-bottom: 0;
+margin-left: auto;
+}
+
+.baner {
+    background-image: url('../images/principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 490px;
+}
+
+.contenedor-navegacion {
+    border-top: 1px solid #C1C1C1;
+}
+
+.listado-categorias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+
 }
